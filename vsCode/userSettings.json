@@ -1,0 +1,8 @@
+{
+  "editor.wordWrap": "on",
+  "workbench.editor.enablePreview": false,
+  "editor.formatOnSave": true,
+  "javascript.validate.enable": false,
+  "workbench.colorTheme": "Oceanic Next (dimmed bg)",
+  "editor.tabSize": 2
+}
