@@ -20,3 +20,10 @@ Oh My Zsh will nuke the `.zshrc` file anyway
 
 ### Install VScode
 Use the settings from the VScode set up files in the repo
+
+### Install [nvm](https://github.com/creationix/nvm)
+`curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | zsh`
+
+### Profit
+🎉🎉🎉
+👩‍💻👩‍💻👩‍💻
