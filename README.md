@@ -8,6 +8,12 @@ Use Oceanic-Next Dark theme
 ### Install [git](https://git-scm.com/docs/git)
 `sudo apt-get install git`
 
+### Set up Key for [GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+`ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+`eval "$(ssh-agent -s)"`
+`ssh-add ~/.ssh/id_rsa`
+
+
 ### Switch shell to [zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 `sudo apt-get install zsh`
 
