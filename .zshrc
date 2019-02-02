@@ -3,6 +3,9 @@
 export PATH=~/.local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
+# Ubuntu
+# export ZSH=/home/liz/.oh-my-zsh
+# OSX
 export ZSH=/Users/hopper/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
