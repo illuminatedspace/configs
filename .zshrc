@@ -51,6 +51,10 @@ ZSH_THEME="robbyrussell"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+# ENV VARIABLES
+# set path to personal configs dir env variable
+CONFIGSPATH=~/Repositories/configs
+
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
@@ -87,6 +91,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# opens a google chrome error ignoring certificate errors
+alias web-lmnh="open -n -a Google\ Chrome --args --ignore-certificate-errors --disable-web-security --user-data-dir=/Users/hopper/tools/chrome/user-data"
+
+# runs task-minder.sh on a command to say done or error
+alias mind="sh $CONFIGSPATH/task-minder.sh"
 
 export NPM_TOKEN="REDACTED" # npm token for signing into npm from cli and downloading private packages
 export NVM_DIR="$HOME/.nvm"
