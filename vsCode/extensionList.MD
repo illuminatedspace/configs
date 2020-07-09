@@ -45,3 +45,39 @@ https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscod
 ### GitHub Repository Link
 
 https://github.com/joshpeng/Sublime-Babel-VSCode
+
+## Spell Right
+
+### Visual Studio Marketplace Link
+
+https://marketplace.visualstudio.com/items?itemName=ban.spellright
+
+### GitHub Repository Link
+
+https://github.com/bartosz-antosik/vscode-spellright
+
+## Twitch Highlighter
+
+### Visual Studio Marketplace Link
+
+https://marketplace.visualstudio.com/items?itemName=clarkio.twitch-highlighter
+
+### GitHub Repository Link
+
+https://github.com/clarkio/vscode-twitch-highlighter.git
+
+## Twitch Highlighter
+
+### Visual Studio Marketplace Link
+
+https://marketplace.visualstudio.com/items?itemName=nicollasr.vscode-streamdeck
+
+### GitHub Repository Link
+
+https://github.com/nicollasricas/vscode-streamdeck.git
+
+## Rainbow Brackets
+
+### Visual Studio Marketplace Link
+
+https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets
