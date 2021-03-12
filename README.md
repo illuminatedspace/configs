@@ -11,7 +11,9 @@ Use Oceanic-Next Dark theme
 
 ### Set up Key for [GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+
 `eval "$(ssh-agent -s)"`
+
 `ssh-add ~/.ssh/id_rsa`
 
 
