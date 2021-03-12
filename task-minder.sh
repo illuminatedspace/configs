@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# only works on MacOS
+
 # exit immediately if command exits with a non 0 status (error)
 set -e
 
