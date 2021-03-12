@@ -95,6 +95,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # runs task-minder.sh on a command to say done or error
+# only works on Mac
 alias mind="sh $CONFIGSPATH/task-minder.sh"
 
 # npm token for signing into npm from cli and downloading private packages
