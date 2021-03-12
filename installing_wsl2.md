@@ -7,9 +7,7 @@ Installing WSL2 on Windows 10
 
 # Install Programs
 
-## Git
-
-1. Follow [this blog](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-git) 
+  1. Install the programs from the [Readme](https://github.com/illuminatedspace/configs/blob/master/README.md) that apply.
 
 
 # Resources
