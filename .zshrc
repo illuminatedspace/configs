@@ -6,7 +6,9 @@ export PATH=~/.local/bin:$PATH
 # Ubuntu
 # export ZSH=/home/liz/.oh-my-zsh
 # OSX
-export ZSH=/Users/hopper/.oh-my-zsh
+# export ZSH=/Users/hopper/.oh-my-zsh
+# Windows WSL
+export ZSH="/home/illuminated-space/.oh-my-zsh"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
