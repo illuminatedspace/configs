@@ -2,7 +2,8 @@
 `sudo apt-get update`
 
 ### Install [guake](http://guake-project.org/)
-`sudo apt-get guake`
+For Linux only
+`sudo apt-get install guake`
 Use Oceanic-Next Dark theme
 
 ### Install [git](https://git-scm.com/docs/git)
