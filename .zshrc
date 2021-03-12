@@ -92,13 +92,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# opens a google chrome error ignoring certificate errors
-alias web-lmnh="open -n -a Google\ Chrome --args --ignore-certificate-errors --disable-web-security --user-data-dir=/Users/hopper/tools/chrome/user-data"
-
 # runs task-minder.sh on a command to say done or error
 alias mind="sh $CONFIGSPATH/task-minder.sh"
 
-export NPM_TOKEN="REDACTED" # npm token for signing into npm from cli and downloading private packages
+# npm token for signing into npm from cli and downloading private packages
+# export NPM_TOKEN="REDACTED" 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -126,9 +124,11 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
+# idk what this does
 if [[ "$SHLVL" -eq 1 && ! -o LOGIN && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
 
-# Sets the Java home environment variable to use the version needed to deploy code on cloudformation
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home
+### DEPRECATED
+# opens a google chrome error ignoring certificate errors
+# alias web-lmnh="open -n -a Google\ Chrome --args --ignore-certificate-errors --disable-web-security --user-data-dir=/Users/hopper/tools/chrome/user-data"
