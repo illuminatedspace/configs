@@ -26,6 +26,7 @@ Oh My Zsh will nuke the `.zshrc` file anyway
 
 ### Install [Oh My Zsh](https://ohmyz.sh/)
 `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+Add the .zshrc from the repo, replacing any relevant secrets/passwords
 
 ### Install VScode
 Use the settings from the VScode set up files in the repo
