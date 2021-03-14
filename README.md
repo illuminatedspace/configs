@@ -16,6 +16,10 @@ Use Oceanic-Next Dark theme
 
 `ssh-add ~/.ssh/id_rsa`
 
+### Set up SSH Agent
+
+[Stack Overflow Post](https://stackoverflow.com/questions/52423626/remember-git-passphrase-in-wsl)
+
 
 ### Switch shell to [zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 `sudo apt-get install zsh`
