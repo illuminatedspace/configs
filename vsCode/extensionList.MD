@@ -36,7 +36,7 @@
 
 [GitHub](https://github.com/clarkio/vscode-twitch-highlighter.git)
 
-## Twitch Highlighter
+## VS Code Stream Deck
 
 [Visual Studio Marketplace Link](https://marketplace.visualstudio.com/items?itemName=nicollasr.vscode-streamdeck)
 
