@@ -1,83 +1,48 @@
 # VScode Extensions
 
-## ESLint - 1.4.4
+## ESLint
 
-### Visual Studio Marketplace Link
+[Visual Studio Marketplace Link](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-
-### Repo Link
-
-https://github.com/Microsoft/vscode-eslint
+[GitHub](https://github.com/Microsoft/vscode-eslint)
 
 ## Node.js Modules Intellisense
 
-### Visual Studio Marketplace Link
+[Visual Studio Marketplace Link](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense)
 
-https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense
-
-### Repo Link
-
-https://github.com/leizongmin/vscode-node-module-intellisense
+[GitHub](https://github.com/leizongmin/vscode-node-module-intellisense)
 
 ## Prettier - Code formatter
 
-### Visual Studio Marketplace Link
+[Visual Studio Marketplace Link](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+[GitHub](https://github.com/prettier/prettier-vscode)
 
-### Repo Link
+## Theme - FairyFloss
 
-https://github.com/prettier/prettier-vscode
+[Visual Studio Marketplace Link]([GitHub](https://marketplace.visualstudio.com/items?itemName=nopjmp.fairyfloss)
+)
 
-## Theme - Oceanic Next
-
-### Visual Studio Marketplace Link
-
-https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext
-
-## Sublime Babel
-
-### Visual Studio Marketplace Link
-
-https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode
-
-### GitHub Repository Link
-
-https://github.com/joshpeng/Sublime-Babel-VSCode
+[GitHub](https://marketplace.visualstudio.com/items?itemName=nopjmp.fairyfloss)
 
 ## Spell Right
 
-### Visual Studio Marketplace Link
+[Visual Studio Marketplace Link](https://marketplace.visualstudio.com/items?itemName=ban.spellright)
 
-https://marketplace.visualstudio.com/items?itemName=ban.spellright
-
-### GitHub Repository Link
-
-https://github.com/bartosz-antosik/vscode-spellright
+[GitHub](https://github.com/bartosz-antosik/vscode-spellright)
 
 ## Twitch Highlighter
 
-### Visual Studio Marketplace Link
+[Visual Studio Marketplace Link](https://marketplace.visualstudio.com/items?itemName=clarkio.twitch-highlighter)
 
-https://marketplace.visualstudio.com/items?itemName=clarkio.twitch-highlighter
-
-### GitHub Repository Link
-
-https://github.com/clarkio/vscode-twitch-highlighter.git
+[GitHub](https://github.com/clarkio/vscode-twitch-highlighter.git)
 
 ## Twitch Highlighter
 
-### Visual Studio Marketplace Link
+[Visual Studio Marketplace Link](https://marketplace.visualstudio.com/items?itemName=nicollasr.vscode-streamdeck)
 
-https://marketplace.visualstudio.com/items?itemName=nicollasr.vscode-streamdeck
-
-### GitHub Repository Link
-
-https://github.com/nicollasricas/vscode-streamdeck.git
+[GitHub](https://github.com/nicollasricas/vscode-streamdeck.git)
 
 ## Rainbow Brackets
 
-### Visual Studio Marketplace Link
-
-https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets
+[Visual Studio Marketplace Link](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
