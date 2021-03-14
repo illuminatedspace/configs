@@ -21,7 +21,6 @@
 ## Theme - FairyFloss
 
 [Visual Studio Marketplace Link]([GitHub](https://marketplace.visualstudio.com/items?itemName=nopjmp.fairyfloss)
-)
 
 [GitHub](https://marketplace.visualstudio.com/items?itemName=nopjmp.fairyfloss)
 
