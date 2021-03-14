@@ -20,7 +20,7 @@
 
 ## Theme - FairyFloss
 
-[Visual Studio Marketplace Link]([GitHub](https://marketplace.visualstudio.com/items?itemName=nopjmp.fairyfloss)
+[Visual Studio Marketplace Link](https://marketplace.visualstudio.com/items?itemName=nopjmp.fairyfloss)
 
 [GitHub](https://marketplace.visualstudio.com/items?itemName=nopjmp.fairyfloss)
 
