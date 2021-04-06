@@ -10,7 +10,8 @@ https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#ubuntu-debian--derivative
 https://github.com/ohmyzsh/ohmyzsh/wiki
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
-
+## Install Node/NVM
+https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2
 
 ## Uninstall
 https://github.com/Microsoft/WSL/issues/2703
