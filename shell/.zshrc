@@ -1,32 +1,39 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=~/.local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-# Ubuntu
-# export ZSH=/home/liz/.oh-my-zsh
-# OSX
-# export ZSH=/Users/hopper/.oh-my-zsh
-# Windows WSL
-export ZSH="/home/illuminated-space/.oh-my-zsh"
+export ZSH="/Users/ephillips/.oh-my-zsh"
 
-# Set name of the theme to load. Optionally, if you set this to "random"
-# it'll load a random theme each time that oh-my-zsh is loaded.
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="end-in-tears"
+
+# Set list of themes to pick from when loading at random
+# Setting this variable when ZSH_THEME=random will cause zsh to load
+# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
+# If set to an empty array, this variable will have no effect.
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
-# Uncomment the following line to use hyphen-insensitive completion. Case
-# sensitive completion must be off. _ and - will be interchangeable.
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
 
+# Uncomment the following line to automatically update without prompting.
+# DISABLE_UPDATE_PROMPT="true"
+
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS=true
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -45,19 +52,23 @@ ZSH_THEME="robbyrussell"
 # much, much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
+# Fix "Insecure completion-dependent directories detected" Error on startup
+# https://github.com/ohmyzsh/ohmyzsh/issues/6835#issuecomment-390216875
+ZSH_DISABLE_COMPFIX=true
+
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
-# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# You can set one of the optional three formats:
+# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# or set a custom format using the strftime function format specifications,
+# see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-# ENV VARIABLES
-# set path to personal configs dir env variable
-CONFIGSPATH=~/Repositories/configs
-
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Which plugins would you like to load?
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
@@ -66,7 +77,6 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -82,8 +92,9 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
+# ENV VARIABLES
+# set path to personal configs dir env variable
+CONFIGSPATH=~/Repositories/configs
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -94,10 +105,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# preventing collisions with the alias functions from aliases.sh
+unalias gco
+unalias gcmsg
+
 source ~/Repositories/configs/aliases.sh
 
-# npm token for signing into npm from cli and downloading private packages
-# export NPM_TOKEN="REDACTED" 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -125,11 +138,49 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
-# idk what this does
-if [[ "$SHLVL" -eq 1 && ! -o LOGIN && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
-  source "${ZDOTDIR:-$HOME}/.zprofile"
+export YVM_DIR=/Users/ephillips/.yvm
+[ -r $YVM_DIR/yvm.sh ] && . $YVM_DIR/yvm.sh
+
+# Spotify Specific
+export GITHUB_ENTERPRISE_TOKEN=18ed6e79ac66ef910bb344d15392eeedd8cd95e0
+
+# add gcloud to path Spotify
+    source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+    source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+
+# setup jenv
+# https://github.com/jenv/jenv
+eval export PATH="/Users/ephillips/.jenv/shims:${PATH}"
+export JENV_SHELL=zsh
+export JENV_LOADED=1
+unset JAVA_HOME
+source '/usr/local/Cellar/jenv/0.5.4/libexec/libexec/../completions/jenv.zsh'
+jenv rehash 2>/dev/null
+jenv refresh-plugins
+jenv() {
+  typeset command
+  command="$1"
+  if [ "$#" -gt 0 ]; then
+    shift
+  fi
+
+  case "$command" in
+  enable-plugin|rehash|shell|shell-options)
+    eval `jenv "sh-$command" "$@"`;;
+  *)
+    command jenv "$command" "$@";;
+  esac
+}
+
+# at pyenv to zsh to enable shims and autocompletion
+# https://github.com/pyenv/pyenv#basic-github-checkout
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
 fi
 
-### DEPRECATED
-# opens a google chrome error ignoring certificate errors
-# alias web-lmnh="open -n -a Google\ Chrome --args --ignore-certificate-errors --disable-web-security --user-data-dir=/Users/hopper/tools/chrome/user-data"
+# Created by `pipx` on 2021-03-26 16:37:32
+export PATH="$PATH:/Users/ephillips/.local/bin"
+
+# Set JAVA_HOME to match jenv version
+# https://stackoverflow.com/questions/28615671/set-java-home-to-reflect-jenv-java-version
+if which jenv > /dev/null; then eval "$(jenv init -)"; fi
