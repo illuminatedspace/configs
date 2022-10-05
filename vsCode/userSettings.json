@@ -1,9 +1,19 @@
 {
   "editor.wordWrap": "on",
   "workbench.editor.enablePreview": false,
-  "editor.formatOnSave": true,
   "javascript.validate.enable": false,
-  "workbench.colorTheme": "Oceanic Next (dimmed bg)",
+  "workbench.colorTheme": "fairyfloss",
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
+  "terminal.integrated.scrollback": 5000,
+  "liveshare.accountProvider": "",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "editor.formatOnSave": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "window.zoomLevel": 1
 }
